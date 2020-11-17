@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 255, 251);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    font-family: 'Zilla Slab Highlight';
+    text-align: center;
+    margin-top: 50px;
+}
+
+main{
+    margin: 12em auto;
+    text-align: center;
+    font-family: 'Zilla Slab';
+    font-size: 23px;
+}
+
+.score, .score-captions{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .buttons button{
+    padding: 20px;
+}
